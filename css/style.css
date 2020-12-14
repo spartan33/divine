@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     overflow: visible;
+    
+}
+
+.header{
+    display: flex;
+      
+    padding: 20px;
+    
+}
+.header .header-logo img{
+    width: 100%;
+}
+.navbar{
+    margin-left:auto;
+    
+}
+.navbar .nav-links li{
+    display: inline;
+    margin: 5px 20px;
+
+}
+.navbar .nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+     position: relative;
+       top: -29px
+}
+body{
+      background-image: linear-gradient(hsl(217, 28%, 15%),hsl(218, 28%, 13%), hsl(219, 30%, 18%) ,hsl(216, 53%, 9%));
+
+      overflow: scroll;
+}
+    
+
+.airpod{
+    display: flex;
+    justify-content: center
+}
+.go{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.to{
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+}
+.in{
+    width: 170px;
+    height: 35px;
+    background-color: aqua;
+    border:1px solid;
+    border-radius: 30px;
+    position: relative;
+    left: 600px;
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.gallery-details{
+    margin: 20px;
+}
+.access{
+    color: white
+}
+.the{
+    color: white;
+    opacity: 0.6;
+    font-size: 13px;
+}
+.can{
+    color: white;
+
+}
+.factor{
+    color: white;
+    opacity: 0.6;
+}
+.sec{
+margin: 80px;
+display: flex;
+
+
+}
+.but{
+    display: flex;
+    flex-direction: row;
+}
+.stay{
+    color: white;
+    font-size: 30px;
+}
+.never{
+color: white;
+font-size: 13px;
+opacity: 0.6;
+}
+    
+.see{
+color: white;
+
+opacity: 0.7;
+}
+.grid{
+    width: 100%;
+
+    height: 100%;
+    padding: 50px 0px;
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+.quo{
+         position: relative;
+         bottom: -110px;
+         left: 120px;
+        z-index: 1;
+}
+.pro1{
+  border-radius: 30px;
+  width: 30px;
+}
+.box{
+    width: 300px;
+    background-color:hsl(220, 41%, 20%) ;
+    padding: 20px;
+    margin: 40px;
+    z-index: 2;
+    color: white;
+    font-size: 13px;
+    
+    
+}
+.pro2{
+  border-radius: 30px;
+  width: 30px;
+}
+.pro3{
+  border-radius: 30px;
+  width: 30px;
+
+    
+}
+.too{
+    display: flex;
+    align-self: center;
+    
+    margin: auto;
+ /* border: 1px solid ; */
+ height: 190px;
+ width: 700px;
+ z-index: 9;
+ box-shadow: 1px 1px 1px 1px black;
+ position: relative;
+ bottom: 10px;
+ 
+}
+.lol{
+   color: white;
+   font-size: 30px;
+    padding: 20px;
+margin:0;
+
+}
+.rr{
+    font-size: 13px;
+    opacity: 0.6;
+
+}
+.type{
+ width: 350px;
+ height: 30px;
+ border-radius: 20px;
+ text-align: left;
+  
+  
+}
+.for{
+    height: 30px;;
+     width: 150px;
+     border-radius: 10px;
+     background-color: aqua;
+     border: 1px solid;
+     
+     
+
+
+}
+
+.kk{
+    text-align: center;
+}
+.rj{
+font-size: 10px;
+color: rgb(247, 131, 131);
+}
+.src{
+   display:grid;
+grid-template-columns: 1fr 1fr ;
+   padding: 20px
+   /* margin: 100px */
+   
+}
+
+.footer{
+    display: flex;
+    
+}
+
+.footer p, ul{
+    margin: 40px;   
+
+    
+}
+.footer  ul li {
+    list-style: none;
+}
+.footer p, ul li a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:500px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     overflow: visible;
+    
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    
+}
+.header .header-logo img{
+    width: 100px;
+}
+.navbar{
+    margin-left:0px;
+    
+}
+.navbar .nav-links li{
+    display: inline;
+    margin: 5px 5px;
+
+}
+.navbar .nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+     position: none;
+       top: -29px
+}
+body{
+      background-image: linear-gradient(hsl(217, 28%, 15%),hsl(218, 28%, 13%), hsl(219, 30%, 18%) ,hsl(216, 53%, 9%));
+
+      overflow: scroll;
+}
+    
+
+.airpod{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center
+}
+.intro{
+    width: 100%;
+}
+.airpod-details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.go{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.to{
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+}
+.in{
+    width: 170px;
+    height: 35px;
+    background-color: aqua;
+    border:1px solid;
+    border-radius: 30px;
+    position: relative;
+    left: 100px;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.gallery-details{
+    margin: 20px;
+}
+.access{
+    color: white
+}
+.the{
+    color: white;
+    opacity: 0.6;
+    font-size: 13px;
+}
+.can{
+    color: white;
+
+}
+.factor{
+    color: white;
+    opacity: 0.6;
+}
+.sec{
+margin: 80px;
+
+flex-direction: column;
+
+
+}
+.prod{
+width: 300px;
+}
+.but{
+    
+    flex-direction: column;
+}
+.stay{
+    display: flex;
+    
+    color: white;
+    font-size: 30px;
+}
+.never{
+color: white;
+font-size: 13px;
+
+opacity: 0.6;
+}
+    
+.see{
+color: white;
+
+opacity: 0.7;
+}
+.grid{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+    height: 100%;
+    padding: 50px 0px;
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+.quo{
+         position: relative;
+         bottom: -100px;
+         left: -140px;
+        z-index: 1;
+}
+.pro1{
+  border-radius: 30px;
+  width: 30px;
+}
+.box{
+    width: 300px;
+    background-color:hsl(220, 41%, 20%) ;
+    padding: 20px;
+    margin: 40px;
+    z-index: 2;
+    color: white;
+    font-size: 13px;
+    
+    
+}
+.pro2{
+  border-radius: 30px;
+  width: 30px;
+}
+.pro3{
+  border-radius: 30px;
+  width: 30px;
+
+    
+}
+.too{
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+    margin: auto;
+ height: 190px;
+ width: 400px;
+ z-index: 9;
+ box-shadow: 1px 1px 1px 1px black;
+ 
+}
+.lol{
+   color: white;
+   font-size: 30px;
+    padding: 20px;
+margin:0;
+
+}
+.rr{
+    font-size: 13px;
+    opacity: 0.6;
+
+}
+.type{
+ width: 100px;
+ height: 30px;
+ border-radius: 20px;
+ text-align: left;
+  
+  
+}
+.for{
+    height: 30px;;
+     width: 150px;
+     border-radius: 10px;
+     background-color: aqua;
+     border: 1px solid;
+
+}
+
+.kk{
+    text-align: center;
+}
+.rj{
+font-size: 10px;
+color: rgb(247, 131, 131);
+}
+.src{
+   display:grid;
+grid-template-columns: 1fr 1fr ;
+   padding: 20px
+   /* margin: 100px */
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer p, ul{
+    margin: 40px;   
+
+    
+}
+.footer  ul li {
+    list-style: none;
+}
+.footer p, ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+}
